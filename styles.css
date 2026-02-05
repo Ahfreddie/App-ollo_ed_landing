@@ -13,3 +13,47 @@ body {
     color: #1f2933;
     background-color: #f9fafb;
 }
+
+/* Layout container */
+.container {
+    max-width: 1100px; /* prevents content from stretching too wide */
+    margin-inline: auto; /* centers container horizontally */
+    padding-inline: 1.5rem; /* breathing room on mobile */
+}
+
+/* Header & Navigation */
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+    
+}
+
+.logo a {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
