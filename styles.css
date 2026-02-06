@@ -55,5 +55,72 @@ body {
 }
 
 .nav-links a:hover {
+    color: #2563eb; /* subtle feedback that reflects the logo color */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-secondary {
     color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* hero section */
+.hero {
+    padding-block: 4rem; /* vertical breathing room top and bottom */
+    background-color: #f9fafb;
+}
+
+.hero-content {
+    display: flex; /* puts text on one side and image on the other side */
+    align-items: center; /* keeps everything balance vertically */
+    gap: 3rem;
+}
+
+/* Hero text styling */
+.hero-text {
+    flex: 1; /* text and image get equal space by default */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+    color: #111827;
+}
+
+.hero-text p {
+    max-width: 500px;
+    margin-bottom: 2rem;
+    color: #4b5563;
+}
+
+/* Image container */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 999px 999px 0 0 ;
 }
